@@ -1,0 +1,40 @@
+.header {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    color: gray;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.active {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#map {
+    height: 700px;
+    width: 800px;
+    position: relative;
+}
+.container {
+    height: 700px;
+    width: auto;
+    border-color: red ;
+    border-style: dotted;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer {
+    margin-top: auto;
+    padding: 3%;
+    background-color: gray;
+    color: white
+}
