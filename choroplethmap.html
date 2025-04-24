@@ -4,23 +4,22 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/styles.css"/>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
 
-    <title>Basic map</title>
+    <title>Choropleth Map</title>
   </head>
-
-<body>
   
   <div class="header">
     <img src="img/banner.jpg" alt="banner"/>
+
   </div>
+
+<body>
   <h1>Web GIS Application</h1>
   <nav class="navi">
 
-    <a href="index.html" class="active">Basic Map</a>
-    <a href="choroplethmap.html">Choropleth Map</a>
-    <a href="heatmap.html">Heatmap</a>
+    <a href="index.html">Basic Map</a>
+    <a href="choroplethmap.html" class="active">Choropleth Map</a>
+    <a href="heatmap.html" >Heatmap</a>
   </nav>
   <button onclick="defaultMapSettings()">Default</button>
 
@@ -30,8 +29,8 @@
   </div>
 
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-  <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
-  <script src="js/javascript.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet-choropleth@1.1.4/dist/choropleth.js"></script>
+  <script src="js/choroplethmap.js"></script>
 
   <footer class="footer">
     © Iris Luik, Tartu University, 2025

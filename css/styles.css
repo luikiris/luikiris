@@ -1,35 +1,58 @@
 .header {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+  
+.header img {
+    width: 100%; /* or 100% for full-width */
     height: auto;
 }
 
 h1 {
     text-align: center;
-    color: gray;
-    font-size: 40px;
+    font-family: 'Georgia', serif;
+    color: #423f3f;
+    font-size: 36px;
     font-weight: bold;
     margin-top: 3px;
     margin-bottom: 3px;
 }
 
-.active {
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+.navi {
+    text-align: center; /* optional: center the links */
+    margin: 20px 0;
 }
 
-#map {
-    height: 700px;
-    width: 800px;
-    position: relative;
+.navi a {
+    font-family: 'Georgia', serif; 
+    font-size: 18px;                 
+    text-decoration: none;          
+    color: #333;                  
+    margin: 0 10px;                  
 }
+  
+.navi a:hover {
+    color: #0077cc;                  
+    text-decoration: underline;
+}
+  
+.navi a.active {
+    font-weight: bold;
+    color: #000000;
+}
+
 .container {
     height: 700px;
     width: auto;
-    border-color: red ;
-    border-style: dotted;
-    padding-left: 5%;
-    padding-right: 5%;
+    border-width: 2px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#map {
+    height: 100%;
 }
 
 .footer {
